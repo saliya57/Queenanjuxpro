@@ -18,16 +18,16 @@
 //*
 //  * @project_name : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ
 //  * @version      : 5.0
-//  * @author       : Janith Rashmika
+//  * @author       : Rezi
 //  * @youtube      : https://www.youtube.com/@gamingrash2006
 //  * @description  : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ, A Multi-functional WhatsApp bot created by Janith Rashmika.
 //*
 //*
-//Base by Janith Rashmika
-//GitHub: @Mrrashmika
-//WhatsApp: +94717775628
-//Want more free bot scripts? Subscribe to my YouTube channel: https://youtube.com/@gamingrash2006
-//   * Created By GitHub: Mrrashmika
+//Base by Rezi
+//GitHub: @saliya57
+//WhatsApp: +94772561563
+//contact us discord rezi_02
+//   * Created By GitHub: Rezi
 //   * Credit To Janith Rashmika
 //   * © 2025 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ-V4.
 // ⛥┌┤
@@ -50,7 +50,7 @@ module.exports = {
     process.env.PASSWORD || "••••••••",
   SUDO: process.env.SUDO
     ? process.env.SUDO.split(",")
-    : ["94717775628", "94758775628"],
+    : ["94701371592", "94772561563"],
   PORT: process.env.PORT || "3000",
   SESSION_DIR: process.env.SESSION_DIR || "sess",
 };
