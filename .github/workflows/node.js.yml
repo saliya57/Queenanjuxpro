@@ -30,19 +30,4 @@ jobs:
     - run: npm start
     - run: npm test
 
-```js
-const { default: makeWASocket } = require('@whiskeysockets/baileys')
-
-async function startSock() {
-  const sock = makeWASocket()
-  
-  sock.ev.on('messages.upsert', async ({ messages }) => {
-    const msg = messages[0]
-    if (!msg.key.fromMe && msg.message?.conversation) {
-      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello there! 👋' })
-    }
-  })
-}
-startSock()
-```
 
