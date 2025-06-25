@@ -1,12 +1,12 @@
 {
-  "name": "queen_anju",
+  "name": "Rezi_Mc",
   "version": "5.0.0",
-  "description": "A Simple WhatsApp bot created By King-Rashmika",
+  "description": "A Simple WhatsApp bot created By King-Rezi",
   "main": "start.js",
   "scripts": {
-    "start": "pm2 start start.js --deep-monitoring --attach --name Queen_Anju",
-    "stop": "pm2 stop Queen_Anju",
-    "restart": "pm2 restart Queen_Anju"
+    "start": "pm2 start start.js --deep-monitoring --attach --name Rezi_Mc",
+    "stop": "pm2 stop Rezi_Mc",
+    "restart": "pm2 restart Rezi_Mc"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
